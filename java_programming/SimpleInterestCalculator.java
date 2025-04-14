@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class  SimpleInterestCalculator
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("==========================================");
+		System.out.println("           Simple Interest Calculator");
+		System.out.println("==========================================");
+		System.out.print("Enter the principal amount:");
+		double p = sc.nextDouble();
+		System.out.print("Enter rate of interest:");
+		double r = sc.nextDouble();
+		System.out.print("Enter time period:");
+		double t = sc.nextDouble();
+		double si = (p*r*t)/100;
+		System.out.println("==========================================");
+		System.out.println("Principal amount :"+p);
+		System.out.println("Total interest :"+si);
+		System.out.println("Total amount :"+(p+si));
+		System.out.println("==========================================");
+		System.out.println("Thank you....!!");
+		System.out.println("==========================================");
+	}
+}

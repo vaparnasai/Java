@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class AreaCalculator 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("=============================================");
+		System.out.println("              Area Calculator");
+		System.out.println("=============================================");
+		System.out.println("Enter 1 to find circle area");
+		System.out.println("Enter 2 to find triangle area");
+		System.out.println("Enter 3 to find square area");
+		System.out.println("Enter 4 to find rectangle area");
+		System.out.println("Enter 5 to find parallelogram area");
+		System.out.println("Enter 6 to find trapezium area");
+		System.out.println("Enter 7 to find rhombus area");
+		System.out.println("=============================================");
+		System.out.print("Enter your choice : ");
+		int n = sc.nextInt();
+		if (n==1)
+		{
+			System.out.println("You have choosen to find area of a circle");
+			System.out.print("Enter radius of a circle : ");
+			double r = sc.nextDouble();
+			System.out.println("Area of circle"+3.14*r*r);
+		}
+	}
+}
