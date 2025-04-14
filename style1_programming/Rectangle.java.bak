@@ -1,0 +1,7 @@
+public class Rectangle  
+{
+	public static String colour = "blue";
+	public static double convert= 1/100;
+	public int l;
+	public int w;
+}

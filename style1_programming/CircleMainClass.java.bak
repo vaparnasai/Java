@@ -1,0 +1,29 @@
+public class CircleMainClass 
+{
+	public static void main(String[] args) 
+	{
+		Circle c1 = new Circle();
+		Circle c2 = new Circle();
+
+		c1.r=8;
+		c2.r=10;
+
+		double area1 = Circle.pi*c1.r*c1.r;
+		double area2 = Circle.pi*c2.r*c2.r;
+
+		double circumference1 = 2*Circle.pi*c1.r;
+		double circumference2 = 2*Circle.pi*c2.r;
+
+		System.out.println("_________________Circle1 Details__________________");
+		System.out.println("pi value : "+Circle.pi);
+		System.out.println("radius value : "+c1.r+"cms");
+		System.out.println("area value : "+area1);
+		System.out.println("circumference value : "+circumference1);
+		System.out.println("_________________Circle2 Details__________________");
+		System.out.println("pi value : "+Circle.pi);
+		System.out.println("radius value : "+c2.r+"cms");
+		System.out.println("area value : "+area2);
+		System.out.println("circumference value : "+circumference2);
+
+	}
+}
